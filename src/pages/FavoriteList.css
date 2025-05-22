@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+.fvrt-container{
+   width: 40%;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* margin-top: 70px; */
+    margin: 100px auto;
+
+}
+.fvrt-name h2{
+    justify-self: center;
+    /* margin-top: 20px; */
+    margin: 20px 30px;
+    font-size: 40px;
+    font-weight: 900;
+     word-break: break-word;
+}
+
+.fvrt-cards{
+   margin: 30px;
+}
+.fvrt-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fvrt-card p{
+    font-size: 20px;
+}
+.fvrt-cards img{
+     width: 20%;
+    height: auto;
+    border-radius: 5px;
+}
+.fvrt-text{
+    margin: 10px 0 0 20px ;
+}
+.fvrtc-btn{
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 5px;
+    width: 15vw;
+    border-radius: 10px;
+    border: none;
+    background-color: #794fc9;
+    color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: block;
+    margin: 10px auto;
+}
+a{
+    text-decoration: none;
+}
+.imdb-btn{
+    padding: 8px 12px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #794fc9;
+    color: white;
+}
+.fvrt-name{
+    
+    height: fit-content;
+}
+@media screen and (min-width: 320px) and (max-width: 500px) {
+    .fvrt-container{
+        width: 90%;
+    }
+    .fvrtc-btn{
+        font-size: 15px;
+        width: 30vw;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 700px) {
+    .fvrt-container{
+        width: 80%;
+    }
+    .fvrtc-btn{
+        font-size: 15px;
+        width: 30vw;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    .fvrt-container{
+        width: 70%;
+    }
+    .fvrtc-btn{
+        font-size: 16px;
+        width: 30vw;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    .fvrt-container{
+        width: 60%;
+    }
+    .fvrtc-btn{
+        font-size: 16px;
+        width: 25vw;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    .fvrt-container{
+        width: 50%;
+    }
+    .fvrtc-btn{
+        font-size: 16px;
+        width: 20vw;
+    }
+}

@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* font-family: 'Poetsen One'; */
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Poetsen One';
+
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.movie-list {
+    width: 40%;
+    border: 2px solid black;
+    /* margin-left: 100px; */
+    border-radius: 10px;
+    margin-top: 70px;
+    font-family: "Roboto";
+
+}
+
+.movie-card img {
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.movie-card {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.movie-card-box {
+    margin-left: 30px;
+    /* margin-bottom: 20px;  */
+}
+
+.movie-card-box h3 {
+    /* width: 100%; */
+    font-size: 23px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.search input {
+    font-size: 18px;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search button {
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 18px;
+    width: 10%;
+    background-color: #794fc9;
+    color: white;
+}
+
+.favorite {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 5px;
+    width: 15vw;
+    border-radius: 10px;
+    border: none;
+    background-color: #794fc9;
+    color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.favorited {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 5px;
+    width: 15vw;
+    border-radius: 10px;
+    border: none;
+    background-color: gray;
+    color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.favorites-list {
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.favorite-container {
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 70px;
+    height: fit-content;
+}
+
+.container {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.favorite-text {
+    font-family: 'Roboto';
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.remove-btn {
+    border-radius: 30px;
+    background-color: red;
+    color: #fff;
+}
+
+.favorites-list-input {
+    width: 90%;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.favorite-btn,
+.favorite-list-btn {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 5px;
+    width: 10vw;
+    border-radius: 10px;
+    border: none;
+    background-color: #794fc9;
+    color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.favorited-list-btn{
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 5px;
+    width: 10vw;
+    border-radius: 10px;
+    border: none;
+    background-color: gray;
+    color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .search button{
+        width: 25%;
+        font-size: 16px;
+        padding: 5px;
+    }
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .movie-list{
+        width: 90%;
+    }
+     .movie-card-box button{
+        /* width: 60%; */
+        font-size: 16px;
+        width: 20vw;
+     }
+     .favorite-container{
+        width: 90%;
+     }
+     .favorite-text{
+        font-size: 17px;
+     }
+     .favorite-btn, .favorite-list-btn, .favorited-list-btn{
+        width: 25vw;
+        font-size: 14px;
+     }
+     
+}
+@media screen and (min-width: 769px) and (max-width: 1220px){
+    .movie-list{
+        width: 45%;
+    }
+    .favorite-container{
+        width: 40%;
+    }
+     .favorite-btn, .favorite-list-btn, .favorited-list-btn{
+        width: 15vw;
+        /* font-size: 16px; */
+     }
+}

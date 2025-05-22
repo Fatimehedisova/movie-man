@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Spider-man",
+        "year": "2002",
+        "image": "https://m.media-amazon.com/images/M/MV5BZWM0OWVmNTEtNWVkOS00MzgyLTkyMzgtMmE2ZTZiNjY4MmFiXkEyXkFqcGc@._V1_FMjpg_UX511_.jpg",
+        "imdbID":"tt0145487"
+    },
+    {
+        "id": 2,
+        "name": "Spider-man 2",
+        "year": "2004",
+        "image": "https://m.media-amazon.com/images/M/MV5BNGQ0YTQyYTgtNWI2YS00NTE2LWJmNDItNTFlMTUwNmFlZTM0XkEyXkFqcGc@._V1_FMjpg_UX1021_.jpg",
+        "imdbID":"tt0316654"
+    },
+    {
+        "id": 3,
+        "name": "Spider-man 3",
+        "year": "2007",
+        "image": "https://m.media-amazon.com/images/M/MV5BODE2NzNhMDctYjUzMC00Y2M5LWI2Y2EtODJkZTFjN2Y5ODlmXkEyXkFqcGc@._V1_FMjpg_UX750_.jpg",
+        "imdbID":"tt0413300"
+    },
+    {
+        "id": 4,
+        "name": "The Amazing Spider-man",
+        "year": "2012",
+        "image": "https://m.media-amazon.com/images/I/91cAWkfjPEL._AC_UF894,1000_QL80_.jpg",
+        "imdbID":"tt0948470"
+    },
+    {
+        "id": 5,
+        "name": "The Amazing Spider-man 2",
+        "year": "2014",
+        "image": "https://m.media-amazon.com/images/M/MV5BZjAzMTQ0MjgtMTRmYy00M2UzLTg5NWMtOGQxYjE4NzUzYjU3XkEyXkFqcGc@._V1_.jpg",
+        "imdbID":"tt1872181"
+    },
+    {
+        "id": 6,
+        "name": "Spider-man: Homecoming",
+        "year": "2017",
+        "image": "https://m.media-amazon.com/images/M/MV5BODY2MTAzOTQ4M15BMl5BanBnXkFtZTgwNzg5MTE0MjI@._V1_FMjpg_UY2048_.jpg",
+        "imdbID":"tt2250912"
+    },
+    {
+        "id": 7,
+        "name": "Spider-man: Into the Spider-verse",
+        "year": "2018",
+        "image": "https://resizing.flixster.com/_l50Ahm00b-RO9Ao2s3AyMjUWiU=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2ExYTZmMWFkLWViZWItNDNhMS1iZTEwLTcxODk1YTk3NWFhMy53ZWJw",
+        "imdbID":"tt4633694"
+    },
+    {
+        "id": 8,
+        "name": "Spider-man: Far from Home",
+        "year": "2019",
+        "image": "https://m.media-amazon.com/images/M/MV5BMzNhNTE0NWQtN2E1Ny00NjcwLTg1YTctMGY1NmMwODJmY2NmXkEyXkFqcGc@._V1_FMjpg_UY2229_.jpg",
+        "imdbID":"tt6320628"
+    },
+    {
+        "id": 9,
+        "name": "Spider-man: No way Home",
+        "year": "2021",
+        "image": "https://m.media-amazon.com/images/M/MV5BMmFiZGZjMmEtMTA0Ni00MzA2LTljMTYtZGI2MGJmZWYzZTQ2XkEyXkFqcGc@._V1_.jpg",
+        "imdbID":"tt10872600"
+    },
+    {
+        "id": 10,
+        "name": "Spider-man: Across the Spider-verse",
+        "year": "2023",
+        "image": "https://m.media-amazon.com/images/M/MV5BNThiZjA3MjItZGY5Ni00ZmJhLWEwN2EtOTBlYTA4Y2E0M2ZmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "imdbID":"tt9362722"
+    }
+]
