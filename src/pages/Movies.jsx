@@ -18,7 +18,7 @@ const Movies = ({ favoriteLists, setFavoriteLists }) => {
     }, [])
     async function searchMovies() {
         if (!text.trim()) return;
-        const url = `http://www.omdbapi.com/?s=${text}&apikey=d29e49b4`
+        const url = `http://www.omdbapi.com/?s=${text}&apikey=516d51f4`
         const res = await fetch(url)
         const data = await res.json()
         if (data.Search) {
